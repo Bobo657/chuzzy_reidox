@@ -1,0 +1,23 @@
+<?php
+
+namespace Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+class PostFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array
+     */
+    public function definition()
+    {
+        return [
+            'status' => $this->faker->boolean(),
+            'filename' => $this->faker->url(),
+            'title' => $this->faker->words(3, true),
+            'body' => $this->faker->paragraphs(2, true)
+        ];
+    }
+}
