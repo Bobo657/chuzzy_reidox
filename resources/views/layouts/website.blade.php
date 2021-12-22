@@ -149,6 +149,13 @@
                                                 <li>
                                                     <a href="/#contact">Contact Us</a>
                                                 </li>
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">Account</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="{{ route('register')}}">Register</a></li>
+                                                        <li><a href="{{ route('login')}}">Login</a></li>
+                                                    </ul>
+                                                </li>
                                               
                                             </ul> <!-- //.nav-menu -->
                                         </nav>
@@ -173,100 +180,48 @@
                         </a>
                     </div>
                     <ul class="nav-menu">
-                        <li class="menu-item-has-children current-menu-item">
+                        <li class=" current-menu-item">
                             <a href="/">Home</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item-has-children current-menu-item">
-                                    <a href="#">Multipages</a>
-                                    <ul class="sub-menu">
-                                        <li class="active"><a href="/">Home One</a></li>
-                                        <li><a href="index2.html">Home Two</a></li>
-                                        <li><a href="index3.html">Home Three</a></li>
-                                        <li><a href="index4.html">Home Four</a></li>
-                                        <li><a href="index5.html">Home Five</a></li>
-                                        <li><a href="index6.html">Home Six</a></li>
-                                    </ul> 
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Onepages</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="onepage1.html">Onepage One</a></li>
-                                        <li><a href="onepage2.html">Onepage Two</a></li>
-                                        <li><a href="onepage3.html">Onepage Three</a></li>
-                                        <li><a href="onepage4.html">Onepage Four</a></li>
-                                        <li><a href="onepage5.html">Onepage Five</a></li>
-                                        <li><a href="onepage6.html">Onepage Six</a></li>
-                                    </ul>  
-                                </li>
-                            </ul>
+                            
+                        </li>
+                       
+                        <li >
+                            <a href="{{ route('about') }}">About Us</a>
+                            
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="#">Pages</a>                                                        
+                            <a href="#">Investors Relation</a>
                             <ul class="sub-menu">
-                                <li><a href="about.html">About</a></li>
-                                <li class="last-item menu-item-has-children">
-                                    <a href="#">Shop</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="shop.html">Shop</a> </li>
-                                        <li><a href="shop-single.html">Shop Single</a></li>
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="pricing-table.html">Pricing Table</a></li>
-                                <li class="last-item menu-item-has-children">
-                                    <a href="#">Team</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="team-style1.html">Team Style 1</a> </li>
-                                        <li><a href="team-style2.html">Team Style 2</a></li>
-                                        <li><a href="team-style3.html">Team Style 3</a></li>
-                                        <li><a href="team-single.html">Team Single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="appointment.html">Appointment</a></li>
-                                <li><a href="careers.html">Careers</a></li>
-                                <li><a href="faqs.html">Faqs</a></li>
-                                <li><a href="partners.html">Partners</a></li>
+                                <li><a href="{{ route('philosophy')}}">Investment Philosophy</a></li>
+                                 <li><a href="{{ route('risk')}}">Risk Consideration</a></li>
+                                <li><a href="{{ route('scheme')}}">Affiliate Scheme </a></li>
+                                <li><a href="{{ route('culture')}}">Our Culture</a></li>
+                                
                             </ul>
                         </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Portfolios</a>
-                            <ul class="sub-menu">
-                                <li><a href="portfolio.html">Portfolio One</a></li>
-                                <li><a href="portfolio2.html">Portfolio Two</a></li>
-                                <li><a href="portfolio3.html">Portfolio Three</a></li>
-                                <li><a href="portfolio4.html">Portfolio Four</a></li>
-                                <li><a href="portfolio5.html">Portfolio Five</a></li>
-                                <li><a href="portfolio6.html">Portfolio Six</a></li>
-                                <li><a href="portfolio7.html">Portfolio Seven</a></li>
-                                <li><a href="portfolios-filter.html">Portfolios Filter</a></li>
-                            </ul>
+                        <li>
+                            <a href="/#packages">Packages</a>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="#">Services</a>
                             <ul class="sub-menu">
-                                <li><a href="services-style1.html">Services Style 1</a></li>
-                                <li><a href="services-style2.html">Services Style 2</a></li>
-                                <li><a href="business-planning.html">Business Planning</a></li>
-                                <li><a href="tax-strategy.html">Tax strategy</a></li>
-                                <li><a href="financial-advices.html">Financial Advices</a></li>
-                                <li><a href="insurance-strategy.html">Insurance Strategy</a></li>
-                                <li><a href="start-ups.html">Start Ups</a></li>
-                                <li><a href="manage-investment.html">Manage Investment</a></li>
+                                <li><a href="{{ route('trade')}}">Cryptocurrency Trade</a></li>
+                                <li><a href="{{ route('exchange')}}">Foreign Exchange</a></li>
+                                <li><a href="{{ route('stock')}}">Stock Market Analysis</a></li>
+                                
                             </ul>
                         </li>
                         <li>
-                            <a href="blog.html">Blog</a>
+                            <a href="/#contact">Contact Us</a>
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="#">Contact</a>
+                            <a href="#">Account</a>
                             <ul class="sub-menu">
-                                <li><a href="contact.html">Contact 1</a></li>
-                                <li><a href="contact2.html">Contact 2</a></li>
-                                <li><a href="contact3.html">Contact 3</a></li>
+                                <li><a href="{{ route('register')}}">Register</a></li>
+                                <li><a href="{{ route('login')}}">Login</a></li>
                             </ul>
                         </li>
+                                              
                     </ul> <!-- //.nav-menu -->
                     <div class="canvas-contact">
                           <div class="address-area">
@@ -276,7 +231,7 @@
                                   </div>
                                   <div class="info-content">
                                       <h4 class="title">Address</h4>
-                                      <em>05 kandi BR. New York</em>
+                                      <em>{{ config('app.address')}}</em>
                                   </div>
                               </div>
                               <div class="address-list">
@@ -294,7 +249,7 @@
                                   </div>
                                   <div class="info-content">
                                       <h4 class="title">Phone</h4>
-                                      <em>+019988772</em>
+                                      <em>{{ config('app.phone')}}</em>
                                   </div>
                               </div>
                           </div>
@@ -308,53 +263,53 @@
 
             @yield('content')
             
+            @include('imports.faq')
 
             <!-- Contact Section Start -->
-            <div class="rs-contact contact-style2 gray-bg pt-100 pb-100 md-pt-70 md-pb-70" id="contact">
-                <div class="container">
-                    <div class="row margin-0">
-                        <div class="col-lg-6 padding-0">
-                            <div class="contact-address">
-                                <div class="sec-title mb-46">
-                                    <h2 class="title pb-20">
-                                       Get in touch
-                                    </h2>
-                                    <p class="margin-0">Objectively innovate your empowered manufactured products whereas parallel platforms for your ideas.</p>
-                                </div>
-                                <div class="address-item mb-25">
-                                    <div class="address-icon">
-                                       <img src="/assets/images/contact/icons/1.png" alt="Address">
-                                    </div>
-                                    <div class="address-text">
-                                        {{ config('app.address') }}
-                                    </div>
-                                </div>
-                                <div class="address-item mb-25">
-                                    <div class="address-icon">
-                                        <img src="/assets/images/contact/icons/5.png" alt="Address">
-                                    </div>
-                                    <div class="address-text">
-                                       <a href="tel:{{ config('app.phone') }}">{{ config('app.phone') }}</a>
-                                    </div>
-                                </div>
-                                <div class="address-item mb-25">
-                                   <div class="address-icon">
-                                        <img src="/assets/images/contact/icons/6.png" alt="Address">
+            <div class="rs-contact main-home office-modify1 responsive pb-100 md-pb-70" id="contact">
+                <!-- Contact Icons Section End -->
+                <div class="rs-contact pt-100 md-pt-70">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 md-mb-30">
+                               <div class="contact-box">
+                                   <div class="contact-icon">
+                                       <img src="assets/images/contact/icons/1.png" alt="images">
                                    </div>
-                                   <div class="address-text">
-                                       <a href="mailto:{{ config('app.email')}}">{{ config('app.email')}}</a>
+                                   <div class="content-text">
+                                       <h2 class="title"><a href="#">Office address</a></h2>
+                                       <p class="services-txt"> {{ config('app.address')}} </p>
                                    </div>
-                                </div>
-                                
+                               </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 padding-0">
-                            <div class="contact-map">
-                                <iframe src="https://maps.google.com/maps?q=rstheme&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+                            <div class="col-lg-4 col-md-6 sm-mb-30">
+                               <div class="contact-box">
+                                   <div class="contact-icon">
+                                       <img src="assets/images/contact/icons/3.png" alt="images">
+                                   </div>
+                                   <div class="content-text">
+                                       <h2 class="title"><a href="#">Email us</a></h2>
+                                       <a href="mailto:{{ config('app.email')}}">{{ config('app.email')}}</a><br>
+                                       <a href="mailto:{{ config('app.email2')}}">{{ config('app.email2')}}</a>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                               <div class="contact-box">
+                                   <div class="contact-icon">
+                                       <img src="assets/images/contact/icons/4.png" alt="images">
+                                   </div>
+                                   <div class="content-text">
+                                       <h2 class="title"><a href="#">Call us</a></h2>
+                                       <a href="tel:{{ config('app.phone')}}">{{ config('app.phone')}}</a><br>
+                                       <br>
+                                   </div>
+                               </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Contact Icons Section End -->
             </div>
             <!-- Contact Section End -->
             

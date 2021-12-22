@@ -43,44 +43,6 @@
     </section>
 
     <!--====== pricing Section Start ======-->
-    <section class="pricing-section section-gap soft-blue-bg" id="investment">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-12 col-md-12">
-                    <div class="section-title with-right-border mb-50">
-                        <span class="title-tag">plans</span>
-                        <h2 class="title">Here is our investment plans</h2>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="tab-content" id="pricingOneTabContent">
-                <div class="tab-pane fade active show" id="monthly-item" role="tabpanel" tabindex="-1">
-                    <div class="row justify-content-center">
-                        @foreach(Cache::get('plans') as $plan)
-                        <div class="col-lg-3 col-md-6 col-sm-8 mt-30">
-                            <div class="pricing-plan-item" style="background-image: url(/assets/img/plans-thumb.jpg);">
-                                <p class="plan-name">{{ $plan->name }}</p>
-                                <h4 class="price"> <span>${{ number_format($plan->min) }}</span></h3>
-                                <span class="plan-duration">Min</span>
-                                <p>We translate your dream into reality.</p>
-                                <ul>
-                                <li><i class="fal fa-angle-right"></i> {{ $plan->desc }}</li>
-                                <li><i class="fal fa-angle-right"></i> {{ $plan->roi }}% ROI</li>
-                                <li><i class="fal fa-angle-right"></i>Affiliate Com {{ $plan->support }}%</li>
-                                <li><i class="fal fa-angle-right"></i> ${{ number_format($plan->max) }} Maximum</li>
-                            </ul>
-                               
-                                <a class="plans-btn" href="{{ route('user.investments')}}">Invest Now</a>
-                            </div>
-                        </div>
-                        @endforeach
-                        
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
+    @include('imports.packages')
     <!--====== pricing Section Ends ======-->
 @endsection

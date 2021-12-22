@@ -2,7 +2,7 @@
         <div class="container">
            <div class="sec-title text-center mb-55 md-mb-30">
                <h2 class="title title2">
-                   Pricing plans
+                   Pricing plans 
                </h2>
            </div>
            <div class="row">

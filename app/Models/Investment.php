@@ -14,14 +14,7 @@ class Investment extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_id',
-        'amount',
-        'wallet_type',
-        'wallet_address',
-        'from',
-        'status',
-        'created_at',
-        'investment_id'
+        'wallet_id', 'package', 'payout', 'duration', 'compounding_status', 'plan_id', 'amount', 'status', 'interest', 'user_id', 'comp_date', 'investment_id', 'created_at', 'profit'
     ];
 
     public function user(){

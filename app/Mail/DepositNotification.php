@@ -12,11 +12,12 @@ class DepositNotification extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $investment = [];
+    public $investment;
     public $description;
 
     public function __construct(Investment $investment)
-    {
+    { 
+        //dd($investment->user->name);
         $this->investment = $investment;
 
          if($investment->status == 'approved'){

@@ -55,7 +55,7 @@
                                                                                 <tr>
                                                                                     <td align="center" class="esd-block-image es-p20b" style="margin:0; padding:0; padding-bottom:20px; font-size:0"><a target="_blank" href="/" style="-ms-text-size-adjust:none; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; text-decoration:underline; color:#666; font-size:14px">
                                                                                         <img src="
-{{ env('APP_URL') }}/admin/images/Prixcoin2.png" alt="Logo" style="-ms-interpolation-mode:bicubic; border:0; display:block; outline:none; text-decoration:none; font-size:12px" width="200" title="Logo"></a></td>
+{{ env('APP_URL') }}/admin/images/dark.png" alt="Logo" style="-ms-interpolation-mode:bicubic; border:0; display:block; outline:none; text-decoration:none; font-size:12px" width="200" title="Logo"></a></td>
                                                                                 </tr>
                                                                                 <tr>
                                                                                     <td class="esd-block-menu" esd-tmp-menu-padding="15|15" style="margin:0; padding:0">

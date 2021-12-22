@@ -56,5 +56,6 @@
         </div>
     </section>
 
+    @include('imports.packages')
  
 @endsection

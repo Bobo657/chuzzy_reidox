@@ -14,11 +14,11 @@
                     <div class="container">
                         <div class="slider-des">
                             <div class="sl-subtitle">Sustainable Finance</div>
-                            <h1 class="sl-title">We transform <br>your business </h1>
+                            <h1 class="sl-title">Invest For  <br>The Future </h1>
                         </div>
-                        <div class="desc">Excepteur sint cupidatat non proident, sunt in coulpa qui official mollit anim id est laborum 20 years experience.</div>
+                        <div class="desc">We will utilize your money and give you profit in your wallet automatically.</div>
                         <div class="slider-bottom ">
-                            <a class="readon consultant slider" href="contact.html">Discover More</a>
+                            <a class="readon consultant slider" href="/register">Discover More</a>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                             <div class="sl-subtitle">Discover your business</div>
                             <h1 class="sl-title">We Promote <br>Your Business</h1>
                         </div>
-                        <div class="desc">Excepteur sint cupidatat non proident, sunt in coulpa qui official mollit anim id est laborum 20 years experience.</div>
+                        <div class="desc">Our revolutionary investment strategy is designed to create your own profitable ecosystem.</div>
                         <div class="slider-bottom ">
                             <a class="readon consultant" href="contact.html">Discover More</a>
                         </div>
@@ -42,16 +42,20 @@
     </div>
     <!-- Slider End -->
 
+     <!-- Services Section Start -->
+    @include('imports.choose_us')
+    <!-- Services Section End -->
+
     <!-- Premium Services Section Start -->
     <div id="rs-services" class="rs-services style2 gray-bg pt-100 pb-100 md-pt-70 md-pb-70">
         <div class="container">
             <div class="sec-title2 d-flex align-items-center mb-60 md-mb-40">
                 <div class="first-half">
                     <div class="sub-text">What We Offer</div>
-                    <h2 class="title mb-0 md-pb-20">The best solutions for your business - <span>what we do.</span></h2>
+                    <h2 class="title mb-0 md-pb-20">The best solutions for investing - <span>what we do.</span></h2>
                 </div>
                 <div class="last-half">
-                    <p class="desc mb-0 pl-20 md-pl-15">30+ years experience in business and finance consulting, IT solutions, and working with 5k+ clients over the world. Creation timelines for the digital consulting business theme 2021.</p>
+                    <p class="desc mb-0 pl-20 md-pl-15">Our revolutionary investment strategy is designed to create your own profitable ecosystem, secure digital assets and access to funding anywhere you are.</p>
                 </div>
             </div>
             <div class="rs-carousel owl-carousel" 
@@ -87,8 +91,8 @@
                         <img src="/assets/images/services/style2/1.jpg" alt="">
                     </div>
                     <div class="content-part">
-                        <h3 class="title"><a href="business-planning.html">Business Planning</a></h3>
-                        <div class="desc">We denounce with indignation on and dislike men who are so begui led and demoralized data.</div>
+                        <h3 class="title"><a href="#">User Friendly</a></h3>
+                        <div class="desc">Our interface was developed to eliminate the haggles of using a high tech platform, No stress, easy to use.</div>
                     </div>
                 </div>
                 <div class="service-wrap">
@@ -96,8 +100,8 @@
                         <img src="/assets/images/services/style2/2.jpg" alt="">
                     </div>
                     <div class="content-part">
-                        <h3 class="title"><a href="tax-strategy.html">Tax Strategy</a></h3>
-                        <div class="desc">We denounce with indignation on and dislike men who are so begui led and demoralized data.</div>
+                        <h3 class="title"><a href="#">Top Notch Security</a></h3>
+                        <div class="desc">Our platform is 100% secured, your details and funds are protected by the best security techonology available.</div>
                     </div>
                 </div>
                 <div class="service-wrap">
@@ -105,8 +109,8 @@
                         <img src="/assets/images/services/style2/3.jpg" alt="">
                     </div>
                     <div class="content-part">
-                        <h3 class="title"><a href="financial-advices.html">Financial Advices</a></h3>
-                        <div class="desc">We denounce with indignation on and dislike men who are so begui led and demoralized data.</div>
+                        <h3 class="title"><a href="#">Fast Notifications</a></h3>
+                        <div class="desc">Our platform was designed with the thoughtful intentions that transactions should be fast and without delay.</div>
                     </div>
                 </div>
                 <div class="service-wrap">
@@ -114,8 +118,8 @@
                         <img src="/assets/images/services/style2/4.jpg" alt="">
                     </div>
                     <div class="content-part">
-                        <h3 class="title"><a href="insurance-strategy.html">Insurance Strategy</a></h3>
-                        <div class="desc">We denounce with indignation on and dislike men who are so begui led and demoralized data.</div>
+                        <h3 class="title"><a href="#">Instant Payments</a></h3>
+                        <div class="desc">Withdrawals from Capital Gains Hub are paid within a short period of time. No delays, No excuses.</div>
                     </div>
                 </div>
                 <div class="service-wrap">
@@ -123,8 +127,8 @@
                         <img src="/assets/images/services/style2/5.jpg" alt="">
                     </div>
                     <div class="content-part">
-                        <h3 class="title"><a href="start-ups.html">Start Ups</a></h3>
-                        <div class="desc">We denounce with indignation on and dislike men who are so begui led and demoralized data.</div>
+                        <h3 class="title"><a href="#">Advance analytics</a></h3>
+                        <div class="desc">Our team of traders are made up of professionals with over 100 years of combined trading experince.</div>
                     </div>
                 </div>
                 <div class="service-wrap">
@@ -132,158 +136,15 @@
                         <img src="/assets/images/services/style2/6.jpg" alt="">
                     </div>
                     <div class="content-part">
-                        <h3 class="title"><a href="manage-investment.html">Investment</a></h3>
-                        <div class="desc">We denounce with indignation on and dislike men who are so begui led and demoralized data.</div>
+                        <h3 class="title"><a href="#">Experts Support</a></h3>
+                        <div class="desc">Our team of well trained assitants are ever ready to offer you support of any kind, and they are available 24/7.</div>
                     </div>
                 </div>
-                <div class="service-wrap">
-                    <div class="image-part">
-                        <img src="/assets/images/services/style2/1.jpg" alt="">
-                    </div>
-                    <div class="content-part">
-                        <h3 class="title"><a href="business-planning.html">Business Planning</a></h3>
-                        <div class="desc">We denounce with indignation on and dislike men who are so begui led and demoralized data.</div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
     <!-- Premium Services Section End -->
-
-    <!-- About Section Start -->
-    <div class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70">
-        <div class="container">
-            <div class="row y-middle">
-                <div class="col-lg-6 pr-70 md-pr-15 md-mb-50">
-                   <div class="sec-title2 mb-30">
-                        <div class="sub-text">Who We Are</div>
-                        <h2 class="title mb-23">We craft your business ideas and <span>plans.</span></h2>
-                        <p class="desc mb-0">Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. We did with righteous indignat ion and dislike men who are so begui led and demoralized data business theme 2021.</p>
-                   </div>
-                    <!-- Skillbar Section Start -->
-                    <div class="rs-skillbar style1">
-                        <div class="cl-skill-bar">
-                           <!-- Start Skill Bar -->
-                           <span class="skillbar-title">Business Consulting</span>
-                           <div class="skillbar" data-percent="92">
-                               <p class="skillbar-bar"></p>
-                               <span class="skill-bar-percent"></span> 
-                           </div>
-                           <!-- Start Skill Bar -->
-                           <span class="skillbar-title">Financial Advices</span>
-                           <div class="skillbar" data-percent="90">
-                               <p class="skillbar-bar"></p>
-                               <span class="skill-bar-percent"></span> 
-                           </div>
-                        </div>
-                        <div class="col-lg-12 mt-45">
-                            <div class="btn-part">
-                                <a class="readon consultant discover" href="about.html">Discover More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Skillbar Section End -->
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-img">
-                        <img src="/assets/images/about/about-2.png" alt="images">
-                        <div class="working-experiance">
-                            <div class="experience-year">
-                                <div class="count-year plus"><span class="sub-text">25+</span></div>
-                                <h4 class="title mb-0">Years Experience</h4>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    <!-- About Section Start -->
-
-    <!-- Services Section Start -->
-    <div class="rs-services home-style2 gray-bg pt-100 pb-100 md-pt-70 md-pb-70">
-        <div class="container">
-            <div class="sec-title2 text-center md-left mb-40">
-                <div class="sub-text">Why Choose Us</div>
-                <h2 class="title">Get our services & drive more <br><span>customers.</span></h2>
-            </div>
-            <div class="row y-middle">
-                <div class="col-lg-4  md-mb-50 pr-30 md-pr-l5">
-                    <div class="services-item mb-45">
-                        <div class="services-icon">
-                            <img src="/assets/images/services/style3/1.png" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Expert peoples</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                    <div class="services-item mb-45">
-                        <div class="services-icon">
-                            <img src="/assets/images/services/style3/2.png" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Big experience</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="/assets/images/services/style3/3.png" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Financial control</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4  md-mb-50">
-                    <div class="rs-videos choose-video">
-                        <div class="images-video">
-                            <img src="/assets/images/choose/choose-2.png" alt="images">
-                        </div>
-                        <div class="animate-border">
-                            <a class="popup-border" href="https://www.youtube.com/watch?v=FMvA5fyZ338">
-                                <i class="fa fa-play"></i>
-                            </a>
-                        </div>
-                    </div>  
-                </div>
-                <div class="col-lg-4 pl-40 md-pl-15">
-                    <div class="services-item mb-45">
-                        <div class="services-icon">
-                            <img src="/assets/images/services/style3/4.png" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Committed quality</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                    <div class="services-item mb-45">
-                        <div class="services-icon">
-                            <img src="/assets/images/services/style3/5.png" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Award winning</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="/assets/images/services/style3/6.png" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Insurance Policy</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- Services Section End -->
 
     <!-- Packages Section Start -->
     @include('imports.packages')
@@ -376,125 +237,24 @@
                         <h2 class="title mb-23">Read our latest updates & business <span>tips & tricks.</span></h2>
                     </div>
                 </div>
-                <div class="col-lg-7 mb-20">
-                    <div class="btn-part text-right md-left">
-                        <a class="readon consultant discover" href="blog-details.html">View Updates</a>
-                    </div>
-                </div>
+                
             </div>
             <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
+                @foreach($posts as $post) 
                 <div class="blog-item">
                     <div class="image-wrap">
-                        <a href="#"><img src="/assets/images/blog/1.jpg" alt="Blog"></a>
-                        <ul class="post-categories">
-                            <li><a href="blog-details.html">Branding</a></li>
-                        </ul>
+                        <a href="#"><img src="{{ $post->url }}" alt="Blog"></a>
                     </div>
                     <div class="blog-content">
                        <ul class="blog-meta mb-10">
                            <li class="admin"> <i class="fa fa-user-o"></i> admin</li>
-                           <li class="date"> <i class="fa fa-calendar-check-o"></i> 16 Aug 2021</li>
+                           <li class="date"> <i class="fa fa-calendar-check-o"></i> {{ $post->created_at->format('Y-m-d H:i:s') }}</li>
                        </ul>
-                       <h3 class="blog-title"><a href="blog-details.html">Customer Onboarding Strategy: A Guide to Class</a></h3>
-                       <p>We denounce with righteous indige nation and dislike men who are so beguiled and demo...</p>
+                       <h3 class="blog-title"><a href="#">{{ $post->title }}</a></h3>
+                       <p>{{ $post->body }}</p>
                     </div>
                 </div>
-                <div class="blog-item">
-                    <div class="image-wrap">
-                        <a href="#"><img src="/assets/images/blog/2.jpg" alt="Blog"></a>
-                        <ul class="post-categories">
-                            <li><a href="blog-details.html">Branding</a></li>
-                        </ul>
-                    </div>
-                    <div class="blog-content">
-                       <ul class="blog-meta mb-10">
-                           <li class="admin"> <i class="fa fa-user-o"></i> admin</li>
-                           <li class="date"> <i class="fa fa-calendar-check-o"></i> 16 Aug 2021</li>
-                       </ul>
-                       <h3 class="blog-title"><a href="blog-details.html">How to plan a fail-proof website redesign strategy</a></h3>
-                       <p>We denounce with righteous indige nation and dislike men who are so beguiled and demo...</p>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="image-wrap">
-                        <a href="#"><img src="/assets/images/blog/3.jpg" alt="Blog"></a>
-                        <ul class="post-categories">
-                            <li><a href="blog-details.html">Digital Marketing</a></li>
-                        </ul>
-                    </div>
-                    <div class="blog-content">
-                       <ul class="blog-meta mb-10">
-                           <li class="admin"> <i class="fa fa-user-o"></i> admin</li>
-                           <li class="date"> <i class="fa fa-calendar-check-o"></i> 16 Aug 2021</li>
-                       </ul>
-                       <h3 class="blog-title"><a href="blog-details.html">How investing in dependend increasing to business</a></h3>
-                       <p>We denounce with righteous indige nation and dislike men who are so beguiled and demo...</p>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="image-wrap">
-                        <a href="#"><img src="/assets/images/blog/4.jpg" alt="Blog"></a>
-                        <ul class="post-categories">
-                            <li><a href="blog-details.html">Digital Marketing</a></li>
-                        </ul>
-                    </div>
-                    <div class="blog-content">
-                       <ul class="blog-meta mb-10">
-                           <li class="admin"> <i class="fa fa-user-o"></i> admin</li>
-                           <li class="date"> <i class="fa fa-calendar-check-o"></i> 16 Aug 2021</li>
-                       </ul>
-                       <h3 class="blog-title"><a href="blog-details.html">7 Productivity tips to avoid burnout when working</a></h3>
-                       <p>We denounce with righteous indige nation and dislike men who are so beguiled and demo...</p>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="image-wrap">
-                        <a href="#"><img src="/assets/images/blog/5.jpg" alt="Blog"></a>
-                        <ul class="post-categories">
-                            <li><a href="blog-details.html">Graphic Design</a></li>
-                        </ul>
-                    </div>
-                    <div class="blog-content">
-                       <ul class="blog-meta mb-10">
-                           <li class="admin"> <i class="fa fa-user-o"></i> admin</li>
-                           <li class="date"> <i class="fa fa-calendar-check-o"></i> 16 Aug 2021</li>
-                       </ul>
-                       <h3 class="blog-title"><a href="blog-details.html">Email marketing tips that will increase your sales</a></h3>
-                       <p>We denounce with righteous indige nation and dislike men who are so beguiled and demo...</p>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="image-wrap">
-                        <a href="#"><img src="/assets/images/blog/6.jpg" alt="Blog"></a>
-                        <ul class="post-categories">
-                            <li><a href="blog-details.html"></a></li>
-                        </ul>
-                    </div>
-                    <div class="blog-content">
-                       <ul class="blog-meta mb-10">
-                           <li class="admin"> <i class="fa fa-user-o"></i> admin</li>
-                           <li class="date"> <i class="fa fa-calendar-check-o"></i> 16 Aug 2021</li>
-                       </ul>
-                       <h3 class="blog-title"><a href="blog-details.html">How to maintain customer relations disaster strikes</a></h3>
-                       <p>We denounce with righteous indige nation and dislike men who are so beguiled and demo...</p>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="image-wrap">
-                        <a href="#"><img src="/assets/images/blog/1.jpg" alt="Blog"></a>
-                        <ul class="post-categories">
-                            <li><a href="blog-details.html">E-commerce</a></li>
-                        </ul>
-                    </div>
-                    <div class="blog-content">
-                       <ul class="blog-meta mb-10">
-                           <li class="admin"> <i class="fa fa-user-o"></i> admin</li>
-                           <li class="date"> <i class="fa fa-calendar-check-o"></i> 16 Aug 2021</li>
-                       </ul>
-                       <h3 class="blog-title"><a href="blog-details.html">How to plan a fail-proof website redesign strategy</a></h3>
-                       <p>We denounce with righteous indige nation and dislike men who are so beguiled and demo...</p>
-                    </div>
-                </div>
+               @endforeach
             </div>
         </div>
     </div>
@@ -510,148 +270,59 @@
             <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
                 <div class="testi-wrap">
                     <div class="item-content">
-                        <span><img src="/assets/images/testimonial/quote.png" alt="Testimonial"></span>
-                        <p>Customer support is excellent and documentation good – novice can easily understand. Although I had a problem with the performance, thanks to the customer support, we have solved this problem as well.</p>
+                        
+                        <p>Its Been 4 Weeks Since I Joined {{ config('app.name')}}, I Have Never Missed A Payment, I Highly Recommend This Company To Investors.</p>
                     </div>
                     <div class="testi-content">
-                        <div class="image-wrap">
-                            <img src="/assets/images/testimonial/avatar/1.jpg" alt="Testimonial">
-                        </div>
+                        <
                         <div class="testi-information">
-                            <div class="testi-name">David Warner</div>
-                            <span class="testi-title">Envato User</span>
-                            <div class="ratting-img">
-                                <img src="/assets/images/testimonial/ratting.png" alt="Testimonial">
-                            </div>
+                            <div class="testi-name">David Meyer</div>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="testi-wrap">
                     <div class="item-content">
-                        <span><img src="/assets/images/testimonial/quote.png" alt="Testimonial"></span>
-                        <p>Customer support is excellent and documentation good – novice can easily understand. Although I had a problem with the performance, thanks to the customer support, we have solved this problem as well.</p>
+                       
+                        <p>My Greatest Joy Is Joining {{ config('app.name')}}, This Company Chnaged My Perspective About Investments.</p>
                     </div>
                     <div class="testi-content">
                         <div class="image-wrap">
                             <img src="/assets/images/testimonial/avatar/2.jpg" alt="Testimonial">
                         </div>
                         <div class="testi-information">
-                            <div class="testi-name">Emily Blunt</div>
-                            <span class="testi-title">Web Developer</span>
-                            <div class="ratting-img">
-                                <img src="/assets/images/testimonial/ratting.png" alt="Testimonial">
-                            </div>
+                            <div class="testi-name">Grace Blunt</div>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="testi-wrap">
                     <div class="item-content">
-                        <span><img src="/assets/images/testimonial/quote.png" alt="Testimonial"></span>
-                        <p>Customer support is excellent and documentation good – novice can easily understand. Although I had a problem with the performance, thanks to the customer support, we have solved this problem as well.</p>
+                       
+                        <p>This Company Is The Best, This Company Is The Best. My Family And I Is Very Thankful To You Guys.</p>
                     </div>
                     <div class="testi-content">
-                        <div class="image-wrap">
-                            <img src="/assets/images/testimonial/avatar/3.jpg" alt="Testimonial">
-                        </div>
+                        
                         <div class="testi-information">
-                            <div class="testi-name">Ansu Fati</div>
-                            <span class="testi-title">Marketing</span>
-                            <div class="ratting-img">
-                                <img src="/assets/images/testimonial/ratting.png" alt="Testimonial">
-                            </div>
+                            <div class="testi-name">Ansu George</div>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="testi-wrap">
                     <div class="item-content">
-                        <span><img src="/assets/images/testimonial/quote.png" alt="Testimonial"></span>
-                        <p>Customer support is excellent and documentation good – novice can easily understand. Although I had a problem with the performance, thanks to the customer support, we have solved this problem as well.</p>
+                        
+                        <p>If You Need An Investment Company That Has The Interest Of Its Clients At Heart, Then You Are At The Right Place.</p>
                     </div>
                     <div class="testi-content">
-                        <div class="image-wrap">
-                            <img src="/assets/images/testimonial/avatar/4.jpg" alt="Testimonial">
-                        </div>
+                       
                         <div class="testi-information">
-                            <div class="testi-name">Angelina Jolie</div>
-                            <span class="testi-title">Graphic Designer</span>
-                            <div class="ratting-img">
-                                <img src="/assets/images/testimonial/ratting.png" alt="Testimonial">
-                            </div>
+                            <div class="testi-name">Angelina Davis</div>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="testi-wrap">
-                    <div class="item-content">
-                        <span><img src="/assets/images/testimonial/quote.png" alt="Testimonial"></span>
-                        <p>Customer support is excellent and documentation good – novice can easily understand. Although I had a problem with the performance, thanks to the customer support, we have solved this problem as well.</p>
-                    </div>
-                    <div class="testi-content">
-                        <div class="image-wrap">
-                            <img src="/assets/images/testimonial/avatar/1.jpg" alt="Testimonial">
-                        </div>
-                        <div class="testi-information">
-                            <div class="testi-name">David Warner</div>
-                            <span class="testi-title">Envato User</span>
-                            <div class="ratting-img">
-                                <img src="/assets/images/testimonial/ratting.png" alt="Testimonial">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testi-wrap">
-                    <div class="item-content">
-                        <span><img src="/assets/images/testimonial/quote.png" alt="Testimonial"></span>
-                        <p>Customer support is excellent and documentation good – novice can easily understand. Although I had a problem with the performance, thanks to the customer support, we have solved this problem as well.</p>
-                    </div>
-                    <div class="testi-content">
-                        <div class="image-wrap">
-                            <img src="/assets/images/testimonial/avatar/2.jpg" alt="Testimonial">
-                        </div>
-                        <div class="testi-information">
-                            <div class="testi-name">Emily Blunt</div>
-                            <span class="testi-title">Web Developer</span>
-                            <div class="ratting-img">
-                                <img src="/assets/images/testimonial/ratting.png" alt="Testimonial">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testi-wrap">
-                    <div class="item-content">
-                        <span><img src="/assets/images/testimonial/quote.png" alt="Testimonial"></span>
-                        <p>Customer support is excellent and documentation good – novice can easily understand. Although I had a problem with the performance, thanks to the customer support, we have solved this problem as well.</p>
-                    </div>
-                    <div class="testi-content">
-                        <div class="image-wrap">
-                            <img src="/assets/images/testimonial/avatar/3.jpg" alt="Testimonial">
-                        </div>
-                        <div class="testi-information">
-                            <div class="testi-name">Ansu Fati</div>
-                            <span class="testi-title">Marketing</span>
-                            <div class="ratting-img">
-                                <img src="/assets/images/testimonial/ratting.png" alt="Testimonial">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testi-wrap">
-                    <div class="item-content">
-                        <span><img src="/assets/images/testimonial/quote.png" alt="Testimonial"></span>
-                        <p>Customer support is excellent and documentation good – novice can easily understand. Although I had a problem with the performance, thanks to the customer support, we have solved this problem as well.</p>
-                    </div>
-                    <div class="testi-content">
-                        <div class="image-wrap">
-                            <img src="/assets/images/testimonial/avatar/4.jpg" alt="Testimonial">
-                        </div>
-                        <div class="testi-information">
-                            <div class="testi-name">Angelina Jolie</div>
-                            <span class="testi-title">Graphic Designer</span>
-                            <div class="ratting-img">
-                                <img src="/assets/images/testimonial/ratting.png" alt="Testimonial">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </div>

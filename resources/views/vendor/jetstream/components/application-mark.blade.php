@@ -1,1 +1,1 @@
-  <img src="/admin/images/Prixcoin2.png" alt="logo-small" >
+  <img src="/admin/images/dark.png" alt="logo-small" >

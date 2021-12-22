@@ -39,12 +39,14 @@ class MakeDeposit extends Component
                                     'duration' => "required|integer",
                                 ]);
 
-        $this->deposit_wallet =  $this->wallets->where('id', $this->payment_details['wallet_id'])->first();
+        
+        $this->deposit_wallet =  $this->wallets->where('id', $this->wallet_id)->first();
 
     }
 
     public function sendNotification() 
     {   
+     
        auth()->user()->investments()->create($this->payment_details);
        $this->emit('closeModals', '#makeDeposit');
        $this->emit('showAlert', 'Investment was successful, waiting for approval');
