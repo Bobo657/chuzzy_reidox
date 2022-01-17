@@ -90,16 +90,17 @@ class Investment extends Model
                 
                 if($investment->investment_id){
                     $parentInvestment =  Investment::find($investment->investment_id);
-                    
                     $plan = Plan::where('max', '>', $parentInvestment->total)->first();
-
                     $parentInvestment->plan_id = $plan->id;
                     $parentInvestment->save();
                 }
 
+                $user = $investment->user;
+                $user->capital = $user->capital + $investment->amount;
+                $user->save();
+
                 $subject = 'Investment Approved';
                 $message = '$'.number_format($investment->amount). ' has been approved';
-                
                 $investment->user->notify(new UserAction($message, $subject));
                 Mail::to($investment->user->email)->send(new DepositNotification($investment));
             }

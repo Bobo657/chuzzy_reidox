@@ -29,7 +29,7 @@
                                 <div class="card-body p-0">
                                     <div class="text-center p-3">
                                         <a href="/" class="logo logo-admin">
-                                            <img src="/admin/images/logo-sm.png" height="50" alt="logo" class="auth-logo">
+                                            <img src="/admin/images/dark.png" height="50" alt="logo" class="auth-logo">
                                         </a>
                                       
                                         <p class="text-muted  mb-0">Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.</p>  
@@ -58,12 +58,12 @@
     
                                         <div class="form-group mb-0 row">
                                             <div class="col-12">
-                                                <button class="btn btn-primary w-100" type="submit">Email Password Reset Link <i class="fas fa-sign-in-alt ms-1"></i></button>
+                                                <button class="btn btn-danger w-100" type="submit">Email Password Reset Link <i class="fas fa-sign-in-alt ms-1"></i></button>
                                             </div><!--end col--> 
                                         </div> <!--end form-group-->                           
                                     </form><!--end form-->
                                     <div class="text-center text-muted">
-                                        <p class="mb-1">Remember It ?  <a href="{{ route('login') }}" class="text-primary ms-2">Sign in here</a></p>
+                                        <p class="mb-1">Remember It ?  <a href="{{ route('login') }}" class="text-danger ms-2">Sign in here</a></p>
                                     </div>
                                 </div><!--end card-body-->
                             </div><!--end card-->
@@ -71,7 +71,7 @@
                         <div class="col-md-7 col-xl-8 col-lg-8  p-0 vh-100 d-flex justify-content-center auth-bg">
                             <div class="accountbg d-flex align-items-center"> 
                                 <div class="account-title text-center text-white">
-                                    <img src="/admin/images/logo-sm.png" alt="" class="thumb-sm">
+                                    <img src="/admin/images/dark.png" alt="" width:="" 150px;="" style="width: 150px;">
                                     <h4 class="mt-3 text-white">Welcome To <span class="text-warning">{{ config('app.name')}}</span> </h4>
                                     <h1 class="text-white">Let's Get Started</h1>
                                     <p class="font-18 mt-3">Our revolutionary investment strategy is designed to create your own profitable ecosystem, secure digital assets and access to funding anywhere you are..</p>

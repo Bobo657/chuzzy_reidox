@@ -24,7 +24,7 @@ class CreateNewUser implements CreatesNewUsers
             'name' => ['required', 'string', 'max:255', 'min:2'],
             'email' => ['required', 'string', 'email', 'max:255', 'min:2', 'unique:users'],
             'password' => $this->passwordRules(),
-            'phone' => ['required', 'string', 'max:255', 'min:2'],
+            'phone' => ['required', 'string', 'max:255', 'min:2', 'unique:users'],
             'ref_id' => ['nullable', 'integer', 'max:255', 'min:2'],
             'country' => ['required', 'string', 'max:255', 'min:2'],
             

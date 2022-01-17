@@ -33,11 +33,13 @@
             <!-- LOGO -->
             <div class="brand">
                 <a href="/" class="logo">
-                   
                     <span>
+                        <img src="/admin/images/logo.png" alt="logo-small" class="logo-sm">
+                    </span>
+                    <!-- <span>
                         <img src="/admin/images/logo.png" alt="logo-large" class="logo-lg logo-light">
                         <img src="/admin/images/logo.png" alt="logo-large" class="logo-lg logo-dark">
-                    </span>
+                    </span> -->
                 </a>
             </div>
             <!--end logo-->  

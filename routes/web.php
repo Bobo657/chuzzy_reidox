@@ -21,7 +21,7 @@ Route::get('/', function () {
 
     return view('welcome', ['posts' => $posts]);
 })->name('index');
-
+Route::view('/about', 'about')->name('contact');
 Route::view('/about', 'about')->name('about');
 Route::view('/trade', 'trade')->name('trade');
 Route::view('/policy', 'policy')->name('policy');
@@ -35,7 +35,7 @@ Route::view('/culture', 'culture')->name('culture');
 
 Route::view('/terms', 'terms')->name('terms');
 
-Auth::loginUsingId(2);
+//Auth::loginUsingId(2);
 
 Route::middleware(['auth:sanctum', 'verified', 'user_routes'])
 ->group(function () {

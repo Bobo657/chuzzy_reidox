@@ -30,7 +30,7 @@
                                 <div class="card-body p-0">
                                     <div class="text-center p-3">
                                         <a href="/" class="logo logo-admin">
-                                            <img src="/admin/images/logo-sm.png" height="50" alt="logo" class="auth-logo">
+                                            <img src="/admin/images/dark.png" height="50" alt="logo" class="auth-logo">
                                         </a>
                                         <h4 class="mt-3 mb-1 fw-semibold text-white font-18">Let's Get Started {{ config('app.name')}}</h4>   
                                         <p class="text-muted  mb-0">Sign up to continue to {{ config('app.name')}}.</p>  
@@ -94,7 +94,7 @@
                                             <div class="col-12">
                                                 <div class="form-check form-switch form-switch-success">
                                                     <input class="form-check-input" type="checkbox" id="customSwitchSuccess">
-                                                    <label class="form-check-label" for="customSwitchSuccess">By registering you agree to the {{ config('app.name') }} <a href="#" class="text-primary">Terms of Use</a></label>
+                                                    <label class="form-check-label" for="customSwitchSuccess">By registering you agree to the {{ config('app.name') }} <a href="/terms" class="text-danger">Terms of Use</a></label>
                                                 </div>
                                             </div><!--end col--> 
                                         </div><!--end form-group--> 
@@ -102,13 +102,13 @@
                                         <div class="form-group mb-0 row">
                                             <div class="col-12">
                                                 <div class="d-grid mt-3">
-                                                    <button class="btn btn-primary" type="submit">Log In <i class="fas fa-sign-in-alt ms-1"></i></button>
+                                                    <button class="btn btn-danger" type="submit">Register <i class="fas fa-sign-in-alt ms-1"></i></button>
                                                 </div>
                                             </div><!--end col--> 
                                         </div> <!--end form-group-->                           
                                     </form><!--end form-->
                                     <div class="m-3 text-center text-muted">
-                                        <p class="mb-0">Already have an account ? <a href="{{ route('login')}}" class="text-primary ms-2">Register</a></p>
+                                        <p class="mb-0">Already have an account ? <a href="{{ route('login')}}" class="text-danger ms-2">Login</a></p>
                                     </div>
                                 </div><!--end card-body-->
                             </div><!--end card-->
@@ -116,7 +116,7 @@
                         <div class="col-md-7 col-xl-9 col-lg-8  p-0 vh-100 d-flex justify-content-center auth-bg">
                             <div class="accountbg d-flex align-items-center"> 
                                 <div class="account-title text-center text-white">
-                                    <img src="/admin/images/logo-sm.png" alt="" class="thumb-sm">
+                                    <img src="/admin/images/dark.png" alt="" width:="" 150px;="" style="width: 150px;">
                                     <h4 class="mt-3 text-white">Welcome To <span class="text-warning">{{ config('app.name') }}</span> </h4>
                                     <h1 class="text-white">Let's Get Started</h1>
                                     <p class="font-18 mt-3">Our revolutionary investment strategy is designed to create your own profitable ecosystem, secure digital assets and access to funding anywhere you are..</p>

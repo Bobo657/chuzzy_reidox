@@ -19,11 +19,11 @@ return [
 
     'payout' => ['Weekly', 'Monthly', 'Quaterly', 'Half Yearly', 'Annually'],
 
-    'phone' => '+XXX XXXX XXXX',
+    'phone' => '+1 (904) 568-8736',
 
     'email' => 'info@riedox.com',
 
-    'address' => 'XXX XXXX XXXX XXX XXXX XXXX XXX XXXX XXXX ',
+    'address' => '89 Nexus Way Camana Bay Cayman Islands',
 
     
 

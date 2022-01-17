@@ -57,7 +57,6 @@
         <!-- Main content Start -->
         <div class="main-content">
 
-            
         <!--Full width header Start-->
         <div class="full-width-header">
             <!--Header Start-->
@@ -66,34 +65,25 @@
                 <div class="topbar-area style1">
                     <div class="container custom">
                         <div class="row y-middle">
-                            <div class="col-lg-7">
+                            <div class="col-lg-10">
                                 <div class="topbar-contact">
                                    <ul>
                                        <li>
                                            <i class="flaticon-email"></i>
-                                           <a href="mailto:info@bizup.com">info@bizup.com</a>
+                                           <a href="mailto:{{ config('app.email') }}">{{ config('app.email') }}</a>
                                        </li>
                                        <li>
                                            <i class="flaticon-call"></i>
-                                           <a href="tel:(+1)9999999999"> (+1) 9999 999 999</a>
+                                           <a href="tel:{{ config('app.phone') }}"> {{ config('app.phone') }}</a>
                                        </li>
                                        <li>
                                            <i class="flaticon-location"></i>
-                                           55 Gerad Lane,  NY 11201, USA
+                                          {{ config('app.address')}}
                                        </li>
                                    </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-5 text-right">
-                                <div class="toolbar-sl-share">
-                                    <ul>
-                                         <li class="opening"> <em><i class="flaticon-clock"></i>Monday - Friday / 8AM - 11PM</em> </li>
-                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -162,13 +152,90 @@
                                     </div> <!-- //.main-menu -->
                                 </div>
                             </div>
-                            
+                            <div class="col-cell">
+                                <div class="expand-btn-inner">
+                                    <ul>
+                                        
+                                        <li class="humburger">
+                                            <a id="nav-expander" class="nav-expander bar" href="#">
+                                                <div class="bar">
+                                                    <span class="dot1"></span>
+                                                    <span class="dot2"></span>
+                                                    <span class="dot3"></span>
+                                                    <span class="dot4"></span>
+                                                    <span class="dot5"></span>
+                                                    <span class="dot6"></span>
+                                                    <span class="dot7"></span>
+                                                    <span class="dot8"></span>
+                                                    <span class="dot9"></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- Menu End -->
                 <!-- Canvas Menu start -->
-             
+                <nav class="right_menu_togle hidden-md">
+                    <div class="close-btn">
+                        <a id="nav-close" class="nav-close">
+                            <div class="line">
+                                <span class="line1"></span>
+                                <span class="line2"></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="canvas-logo">
+                        <a href="/"><img src="/assets/images/logo-dark.png" alt="logo"></a>
+                    </div>
+                    <div class="offcanvas-text">
+                        <p>One of our strongest advantages over competitors is that we provide the utmost flexibility and the most important insurance on funds being invested with us.</p>
+                    </div>
+                    <div class="media-img">
+                        <img src="assets/images/off2.jpg" alt="Images">
+                    </div>
+                    <div class="canvas-contact">
+                        <div class="address-area">
+                            <div class="address-list">
+                                <div class="info-icon">
+                                    <i class="flaticon-location"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4 class="title">Address</h4>
+                                    <em>{{ config('app.address')}}</em>
+                                </div>
+                            </div>
+                            <div class="address-list">
+                                <div class="info-icon">
+                                    <i class="flaticon-email"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4 class="title">Email</h4>
+                                    <em><a href="mailto:{{ config('app.email')}}">{{ config('app.email')}}</a></em>
+                                </div>
+                             </div>
+                            <div class="address-list">
+                                <div class="info-icon">
+                                  <i class="flaticon-call"></i>
+                                </div>
+                                <div class="info-content">
+                                  <h4 class="title">Phone</h4>
+                                  <em>{{ config('app.phone')}}</em>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="social">
+                            <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li> -->
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Canvas Menu end -->
+
                 <!-- Canvas Mobile Menu start -->
                 <nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu">
                     <div class="close-btn">
@@ -181,47 +248,46 @@
                     </div>
                     <ul class="nav-menu">
                         <li class=" current-menu-item">
-                            <a href="/">Home</a>
-                            
-                        </li>
-                       
-                        <li >
-                            <a href="{{ route('about') }}">About Us</a>
-                            
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Investors Relation</a>
-                            <ul class="sub-menu">
-                                <li><a href="{{ route('philosophy')}}">Investment Philosophy</a></li>
-                                 <li><a href="{{ route('risk')}}">Risk Consideration</a></li>
-                                <li><a href="{{ route('scheme')}}">Affiliate Scheme </a></li>
-                                <li><a href="{{ route('culture')}}">Our Culture</a></li>
-                                
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="/#packages">Packages</a>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Services</a>
-                            <ul class="sub-menu">
-                                <li><a href="{{ route('trade')}}">Cryptocurrency Trade</a></li>
-                                <li><a href="{{ route('exchange')}}">Foreign Exchange</a></li>
-                                <li><a href="{{ route('stock')}}">Stock Market Analysis</a></li>
-                                
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="/#contact">Contact Us</a>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Account</a>
-                            <ul class="sub-menu">
-                                <li><a href="{{ route('register')}}">Register</a></li>
-                                <li><a href="{{ route('login')}}">Login</a></li>
-                            </ul>
-                        </li>
-                                              
+                                                    <a href="/">Home</a>
+                                                    
+                                                </li>
+                                               
+                                                <li >
+                                                    <a href="{{ route('about') }}">About Us</a>
+                                                    
+                                                </li>
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">Investors Relation</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="{{ route('philosophy')}}">Investment Philosophy</a></li>
+                                                         <li><a href="{{ route('risk')}}">Risk Consideration</a></li>
+                                                        <li><a href="{{ route('scheme')}}">Affiliate Scheme </a></li>
+                                                        <li><a href="{{ route('culture')}}">Our Culture</a></li>
+                                                        
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="/#packages">Packages</a>
+                                                </li>
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">Services</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="{{ route('trade')}}">Cryptocurrency Trade</a></li>
+                                                        <li><a href="{{ route('exchange')}}">Foreign Exchange</a></li>
+                                                        <li><a href="{{ route('stock')}}">Stock Market Analysis</a></li>
+                                                        
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="/#contact">Contact Us</a>
+                                                </li>
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">Account</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="{{ route('register')}}">Register</a></li>
+                                                        <li><a href="{{ route('login')}}">Login</a></li>
+                                                    </ul>
+                                                </li>
                     </ul> <!-- //.nav-menu -->
                     <div class="canvas-contact">
                           <div class="address-area">
