@@ -79,9 +79,9 @@ class Investment extends Model
             $subject = 'Deposit request';
             $message = $deposit->user->name. ' made a deposit of $ '.$deposit->amount;
             $admin = User::where('role', 'admin')->first();
-            $admin->notify(new UserAction($message, $subject));
+            // $admin->notify(new UserAction($message, $subject));
 
-            Mail::to($deposit->user->email)->send(new DepositNotification($deposit));
+            // Mail::to($deposit->user->email)->send(new DepositNotification($deposit));
         });
 
 
@@ -101,8 +101,8 @@ class Investment extends Model
 
                 $subject = 'Investment Approved';
                 $message = '$'.number_format($investment->amount). ' has been approved';
-                $investment->user->notify(new UserAction($message, $subject));
-                Mail::to($investment->user->email)->send(new DepositNotification($investment));
+                // $investment->user->notify(new UserAction($message, $subject));
+                // Mail::to($investment->user->email)->send(new DepositNotification($investment));
             }
 
         });

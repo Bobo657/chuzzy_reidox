@@ -53,9 +53,9 @@ class Withdrawal extends Model
             $subject = 'Withdrawal Request';
             $message = $withdrawal->user->name. ' made a withdrawal of $ '.$withdrawal->amount;
             $admin = User::where('role', 'admin')->first();
-            $admin->notify(new UserAction($message, $subject));
+            // $admin->notify(new UserAction($message, $subject));
 
-            Mail::to($withdrawal->user->email)->send(new WithdrawalNotification($withdrawal));
+            // Mail::to($withdrawal->user->email)->send(new WithdrawalNotification($withdrawal));
         });
 
 
@@ -74,9 +74,9 @@ class Withdrawal extends Model
                 $subject = 'Withdrawal Approved';
                 $message = '$'.number_format($withdrawal->amount). ' has been approved';
                 
-                $user->notify(new UserAction($message, $subject));
+               //  $user->notify(new UserAction($message, $subject));
                 
-               Mail::to($withdrawal->user->email)->send(new WithdrawalNotification($withdrawal));
+               // Mail::to($withdrawal->user->email)->send(new WithdrawalNotification($withdrawal));
             }
         });
     } 

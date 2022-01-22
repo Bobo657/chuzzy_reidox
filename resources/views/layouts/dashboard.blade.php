@@ -53,7 +53,7 @@
                         <a class="nav-link dropdown-toggle nav-user" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="false" aria-expanded="false">
                             <div class="d-flex align-items-center">
-                                <img src="{{ auth()->user()->photo() }}" alt="profile-user" class="rounded-circle me-2 thumb-sm" />
+                                <img   src="{{ auth()->user()->photo() }}" alt="profile-user" class="rounded-circle me-2 thumb-sm" />
                                 <div>
                                     <small class="d-none d-md-block font-11">{{ auth()->user()->role }}</small>
                                     <span class="d-none d-md-block fw-semibold font-12">{{ auth()->user()->name }} <i
@@ -62,7 +62,7 @@
                             </div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end">
-                           
+                             <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#uploadPhoto">Upload Photo</a>
                             <div class="dropdown-divider mb-0"></div>
                              <form method="POST" action="{{ route('logout') }}">
                                     @csrf()
@@ -144,6 +144,20 @@
                 {{ $slot }}
             </div>
             <!-- end page content -->
+
+            <div class="modal fade" wire:ignore.self id="uploadPhoto" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h6 class="modal-title m-0">Upload Picture</h6>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div><!--end modal-header-->
+                        <div class="modal-body">
+                            @livewire('user.picture-upload', ['col' => 'photo', 'label' => 'Profile Picture'])
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
          <!--Start Rightbar-->

@@ -35,7 +35,7 @@ Route::view('/culture', 'culture')->name('culture');
 
 Route::view('/terms', 'terms')->name('terms');
 
-//Auth::loginUsingId(2);
+Auth::loginUsingId(1);
 
 Route::middleware(['auth:sanctum', 'verified', 'user_routes'])
 ->group(function () {
