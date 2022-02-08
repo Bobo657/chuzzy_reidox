@@ -44,11 +44,7 @@
                     <div class="images-video">
                         <img src="/assets/images/choose/chosse-video.jpg" alt="images">
                     </div>
-                    <div class="animate-border">
-                        <a class="popup-border" href="https://www.youtube.com/watch?v=FMvA5fyZ338">
-                            <i class="fa fa-play"></i>
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
         </div>

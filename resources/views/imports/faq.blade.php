@@ -22,8 +22,7 @@
                           </div>
                           <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
                               <div class="card-body">
-                                     Deposit is instant and withdrawal are available after the 14 days duration from initial investment. The available amount for withdrawal is shown on your dashboard. 
-                              </div>
+                                     You can deposit anytime and withdraw a week after you invest. This is when your account has yeileded its first non compounding profit. But if you’re compounding you can withdraw capital and compounding Profit at the end of your contract duration.</div>
                           </div>
                       </div>
                        <div class="card">
@@ -54,7 +53,7 @@
                            </div>
                            <div id="collapsefour" class="collapse" data-bs-parent="#accordion" style="">
                                <div class="card-body">
-                                   You can withdraw the full amount of your account balance, it will take up to a 7 days for your funds to appear depending on blockchain. Remember that the minimum daily withdrawal amount is $1000 and maximum daily withdrawal amount is $500,000.
+                                   You can withdraw you available non compounding profit and seed capital weekly.
                                </div>
                            </div>
                        </div>

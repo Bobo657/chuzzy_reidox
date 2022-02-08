@@ -10,7 +10,7 @@
                <div class="col-lg-3 col-md-6 md-mb-30">
                    <div class="pricing-table {{ $plan->id == '2' || $plan->id == '4' ? '' : 'white-bg'}} ">
                         <div class="pricing-table-header">
-                            <h3 class="table-title">Basic Plan</h3>
+                            <h3 class="table-title">{{ $plan->name }} Plan</h3>
                         </div>
                        <div class="pricing-icon mb-40">
                            <img src="assets/images/pricing/style1/1.png" alt="">
@@ -18,7 +18,9 @@
                         <div class="pricing-table-price">
                             <div class="pricing-table-bags">
                                 <span class="pricing-currency">$</span>
-                                <span class="table-price-text" style="font-size : 50px;">{{ $plan->min}}</span>
+                                <span class="table-price-text" style="font-size : 50px;">
+                                    {{ number_format($plan->min) }}
+                                </span>
                                 <span class="table-period"> Min</span>
                             </div>
                         </div>
