@@ -20,6 +20,17 @@
     <div class="row">
         <div class="col-12">
             <div class="card">
+                <div class="card-header">
+                    <div class="row align-items-center">
+                        <div class="col">                      
+                            <h4 class="card-title">Investment Table</h4>             
+                        </div><!--end col--> 
+
+                        <div class="col-5">                      
+                              <input type="text" class="form-control" placeholder="Enter text to  search" wire:model="search" />            
+                        </div><!--end col-->                                      
+                    </div>  <!--end row-->                                  
+                </div><!--end card-header-->
                 <div class="card-body">
                     <div class="table-responsive">
                         <table class="table">

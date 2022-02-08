@@ -26,7 +26,7 @@
                                </div>
                                <div class="content-part">
                                    <h3 class="title"><a href="#">Collaboration</a></h3>
-                                   <div class="desc">We expect and value collaboration — it is a hallmark of our culture. A sense of community exists at our firm. Teamwork predominates.</div>
+                                   <div class="desc">We respect and value collaboration — it is a hallmark of our culture. A sense of community exists at our firm. Teamwork predominates.</div>
                                </div>
                            </div>
                         </div>
@@ -59,8 +59,8 @@
                                     <img src="/assets/images/services/style2/3.jpg" alt="">
                                 </div>
                                 <div class="content-part">
-                                    <h3 class="title"><a href="#">Innoative</a></h3>
-                                    <div class="desc">We believe that continual improvement is critical amid constant change. Our emphasis on learning and our entrepreneurial spirit enable us to meet the evolving needs of our clients.</div>
+                                    <h3 class="title"><a href="#">Innovative</a></h3>
+                                    <div class="desc">We believe that continual improvement is critical amidst constant change. Our emphasis on learning and our entrepreneurial spirit enable us to meet the evolving needs of our clients.</div>
                                 </div>
                             </div>
                         </div>

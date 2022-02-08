@@ -10,7 +10,7 @@
                 <h1 class="page-title">
                     Foreign Exchange
                 </h1>
-                <span class="sub-text">In a broader view of their longer-term performance, however, the top digital currencies have shown significant overall gains.</span>
+                <span class="sub-text">In broader view of their longer-term performance, however, the top digital currencies have shown significant overall gains.</span>
             </div>
         </div>
     </div>
