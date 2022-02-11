@@ -11,7 +11,7 @@
                     Affiliate Scheme
                     
                 </h1>
-                <span class="sub-text">We reward you when you refferre us to people by paying you a percentage once they make their initial deposit.</span>
+                <span class="sub-text">We reward you when you refer us to people by paying you a percentage once they make their initial deposit.</span>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="col-lg-10">
-                    <p class="desc margin-0 pl-100 md-pl-15">2% instant bonus on each deposit. A minimum of 1 active referred user required to withdraw funds.</p>
+                    <p class="desc margin-0 pl-100 md-pl-15">2% instant bonus on each deposit. </p>
                 </div>
             </div>                    
         </div>

@@ -10,7 +10,7 @@
                 <h1 class="page-title">
                     Stock Market Analysis
                 </h1>
-                <span class="sub-text">We realize opportunity, respecting different ways of analyzing and the contribution of others to help our prospects reach their goals.</span>
+                <span class="sub-text">We realize opportunities, respecting different ways of analyzing and the contribution of others to help our prospects reach their goals.</span>
             </div>
         </div>
     </div>

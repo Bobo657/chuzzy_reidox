@@ -265,7 +265,7 @@
         <div class="container">
             <div class="sec-title2 text-center md-left mb-30">
                 <div class="sub-text">Testimonials</div>
-                <h2 class="title mb-0 white-color">What is our customer saying<br> about us</h2>
+                <h2 class="title mb-0 white-color">What are our users saying<br> about us</h2>
             </div>
             <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
                 <div class="testi-wrap">
@@ -284,7 +284,7 @@
                 <div class="testi-wrap">
                     <div class="item-content">
                        
-                        <p>My Greatest Joy Is Joining {{ config('app.name')}}, This Company Chnaged My Perspective About Investments.</p>
+                        <p>My Greatest Joy Is Joining {{ config('app.name')}}, This Company Changed My Perspective About Investments.</p>
                     </div>
                     <div class="testi-content">
                         <div class="image-wrap">
@@ -299,7 +299,7 @@
                 <div class="testi-wrap">
                     <div class="item-content">
                        
-                        <p>This Company Is The Best, This Company Is The Best. My Family And I Is Very Thankful To You Guys.</p>
+                        <p>This Company Is The Best, My Family And I Are Very Thankful To You Guys.</p>
                     </div>
                     <div class="testi-content">
                         

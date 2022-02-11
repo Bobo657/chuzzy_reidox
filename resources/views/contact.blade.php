@@ -19,11 +19,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="contact-info-items mb-md-gap-50">
-                        <div class="contact-info-item text-center">
-                            <i class="fal fa-phone"></i>
-                            <h5 class="title">Phone Number</h5>
-                            <p>{{ config('app.phone')}}</p>
-                        </div>
+                       
                         <div class="contact-info-item text-center">
                             <i class="fal fa-envelope"></i>
                             <h5 class="title">Email Address</h5>

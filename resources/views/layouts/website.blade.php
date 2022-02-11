@@ -217,15 +217,7 @@
                                     <em><a href="mailto:{{ config('app.email')}}">{{ config('app.email')}}</a></em>
                                 </div>
                              </div>
-                            <div class="address-list">
-                                <div class="info-icon">
-                                  <i class="flaticon-call"></i>
-                                </div>
-                                <div class="info-content">
-                                  <h4 class="title">Phone</h4>
-                                  <em>{{ config('app.phone')}}</em>
-                                </div>
-                            </div>
+                            
                         </div>
                         <ul class="social">
                             <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -309,15 +301,7 @@
                                       <em><a href="mailto:{{ config('app.email')}}">{{ config('app.email')}}</a></em>
                                   </div>
                               </div>
-                              <div class="address-list">
-                                  <div class="info-icon">
-                                      <i class="flaticon-call"></i>
-                                  </div>
-                                  <div class="info-content">
-                                      <h4 class="title">Phone</h4>
-                                      <em>{{ config('app.phone')}}</em>
-                                  </div>
-                              </div>
+                              
                           </div>
                     </div>
                 </nav>
@@ -360,18 +344,7 @@
                                    </div>
                                </div>
                             </div>
-                            <div class="col-lg-4 col-md-6">
-                               <div class="contact-box">
-                                   <div class="contact-icon">
-                                       <img src="assets/images/contact/icons/4.png" alt="images">
-                                   </div>
-                                   <div class="content-text">
-                                       <h2 class="title"><a href="#">Call us</a></h2>
-                                       <a href="tel:{{ config('app.phone')}}">{{ config('app.phone')}}</a><br>
-                                       <br>
-                                   </div>
-                               </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -419,12 +392,7 @@
                                     <i class="flaticon-location"></i>
                                     <div class="desc">{{ config('app.address')}}</div>
                                 </li>
-                                <li>
-                                    <i class="flaticon-call"></i>
-                                    <div class="desc">
-                                       <a href="tel:{{ config('app.phone')}}">{{ config('app.phone')}}</a>
-                                    </div>
-                                </li>
+                                
                                 <li>
                                     <i class="flaticon-email"></i>
                                     <div class="desc">

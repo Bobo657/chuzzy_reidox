@@ -115,7 +115,7 @@
                         </div>
                         <div class="services-content">
                             <h2 class="services-title"><a href="#">Quick Withdrawals</a></h2>
-                            <p class="services-txt">All withdrawals are treated spontaneously once requested. The minimum withdrawal amount is only $1000 and the maximum limit each day is $500,000</p>
+                            <p class="services-txt">All withdrawals are treated spontaneously once requested.</p>
                         </div>
                     </div>
                 </div>
