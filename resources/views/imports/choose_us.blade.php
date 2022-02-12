@@ -42,7 +42,10 @@
             <div class="col-lg-6">
                 <div class="rs-videos choose-video">
                     <div class="images-video">
-                        <img src="/assets/images/choose/chosse-video.jpg" alt="images">
+                        <video width="" style="width:100%;" controls="controls" autoplay="autoplay">
+                            <source src="/assets/work.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
                     </div>
                     
                 </div>

@@ -321,7 +321,7 @@
                 <div class="rs-contact pt-100 md-pt-70">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-4 col-md-6 md-mb-30">
+                            <div class="col-lg-6 col-md-6 md-mb-30">
                                <div class="contact-box">
                                    <div class="contact-icon">
                                        <img src="assets/images/contact/icons/1.png" alt="images">
@@ -332,7 +332,7 @@
                                    </div>
                                </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 sm-mb-30">
+                            <div class="col-lg-6 col-md-6 sm-mb-30">
                                <div class="contact-box">
                                    <div class="contact-icon">
                                        <img src="assets/images/contact/icons/3.png" alt="images">
