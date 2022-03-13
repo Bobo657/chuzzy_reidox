@@ -49,16 +49,14 @@
                                         </span>
                                     </div>
                                     <div class="met-profile_user-detail">
-                                        <h5 class="met-user-name">{{ auth()->user()->name }}</h5>                                                        
-                                        <p class="mb-0 met-user-name-post">{{ auth()->user()->email }}</p>                                                        
+                                        <h5 class="met-user-name">{{ auth()->user()->name }}</h5>  
                                     </div>
                                 </div>                                                
                             </div><!--end col-->
                             
                             <div class="col-lg-4 ms-auto align-self-center">
                                 <ul class="list-unstyled personal-detail mb-0">
-                                    <li class=""><i class="las la-phone mr-2 text-secondary font-22 align-middle"></i> <b> phone </b> : {{ auth()->user()->phone }}</li>
-                                    <li class="mt-2"><i class="las la-envelope text-secondary font-22 align-middle mr-2"></i> <b> Email </b> : {{ auth()->user()->email }}</li>
+                        
                                     <li class="mt-2"><i class="las la-globe text-secondary font-22 align-middle mr-2"></i> <b> Referal Link </b> : 
                                         <a href="{{ route('register')}}/?ref={{ Auth::id()+400 }}" class="font-14 text-primary">{{ route('register')}}/?ref={{ Auth::id()+400 }}</a> 
                                     </li>                                                   

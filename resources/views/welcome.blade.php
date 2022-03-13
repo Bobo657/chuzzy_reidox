@@ -146,6 +146,61 @@
     </div>
     <!-- Premium Services Section End -->
 
+    <div class="rs-services main-home services-style1 gray-bg3 pt-100 pb-100 md-pt-70 md-pb-70">
+        <div class="container">
+            <div class="row">
+                <h2 class="title ">
+                    We help to implement your ideas into automation
+                </h2>
+                <p class="margin-0 pb-15">We have now featured a balanced and powerful referral system which provides a great chance to secure a guaranteed return for you and people you refer.
+                </p>
+                <div class="col-lg-4 col-md-6 mb-65">
+                    <div class="services-item">
+                        <div class="services-icon">
+                            <img src="assets/images/services/main-home/1.png" alt="Services">
+                        </div>
+                        <div class="services-text">
+                            <h2 class="title"><a href="#">TIER 1</a></h2>
+                            <p class="services-txt">Any partcipating member of the 1 Tier entitled to 6% instant bouns on each deposit made by your downline when you have at least 1 active referral..</p>
+                            <div class="serial-number">
+                                01
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-65">
+                    <div class="services-item">
+                        <div class="services-icon">
+                            <img src="assets/images/services/main-home/2.png" alt="Services">
+                        </div>
+                        <div class="services-text">
+                            <h2 class="title"><a href="#">TIER 2</a></h2>
+                            <p class="services-txt">Any partcipating member of the Tier 2 is entitled to a 7% instant bouns on each deposit made by your downline when you have at least 5 active refreral with a 1% increase in your weekly returns.</p>
+                            <div class="serial-number">
+                                02
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-65">
+                    <div class="services-item">
+                        <div class="services-icon">
+                            <img src="assets/images/services/main-home/3.png" alt="Services">
+                        </div>
+                        <div class="services-text">
+                            <h2 class="title"><a href="#">TIER 3</a></h2>
+                            <p class="services-txt">Any partcipating member of the Tier  3 is entitled to a 7% instant bouns on each deposit made by your downline when you have at least 10 active referral with with a 1.7% increase in your weekly returns..</p>
+                            <div class="serial-number">
+                                03
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
     <!-- Packages Section Start -->
     @include('imports.packages')
     <!-- Process Section Start -->

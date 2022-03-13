@@ -47,6 +47,13 @@
                             Your browser does not support HTML5 video.
                         </video>
                     </div>
+
+                     <div class="images-video">
+                        <video width="" style="width:100%;" controls="controls" autoplay="autoplay">
+                            <source src="/assets/work1.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </div>
                     
                 </div>
             </div>

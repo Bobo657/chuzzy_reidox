@@ -72,10 +72,7 @@
                                            <i class="flaticon-email"></i>
                                            <a href="mailto:{{ config('app.email') }}">{{ config('app.email') }}</a>
                                        </li>
-                                       <li>
-                                           <i class="flaticon-call"></i>
-                                           <a href="tel:{{ config('app.phone') }}"> {{ config('app.phone') }}</a>
-                                       </li>
+                                       
                                        <li>
                                            <i class="flaticon-location"></i>
                                           {{ config('app.address')}}
