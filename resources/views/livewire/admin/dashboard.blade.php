@@ -15,13 +15,17 @@
     </div>
 
     <div class="row">
-        <div class="col-12 col-md-7 col-lg-7"> 
+        <div class="col-12 col-md-12 col-lg-12"> 
             @livewire('admin.wallet-table')
         </div>
 
-        <div class="col-12 col-md-5 col-lg-5"> 
+        <div class="col-12 col-md-6 col-lg-6"> 
             @livewire('admin.send-mail')
         </div>
+        
+        <div class="col-12 col-md-6 col-lg-6">
+            @livewire('user.change-password')
+        </div><!--end col-->
     </div>
 
     <div class="row">

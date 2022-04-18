@@ -28,7 +28,7 @@
                            <ul>
                                 <li><i class="fa fa-check"></i><span>{{ $plan->desc }}</span></li>
                                 <li><i class="fa fa-check"></i><span>Affiliate Com {{ $plan->support }}%</span></li>
-                                <li><i class="fa fa-check"></i><span>{{ $plan->roi }}% ROI</span></li>
+                                <li><i class="fa fa-check"></i><span>{{ $plan->roi }}% ROI Weekly</span></li>
                                 <li><i class="fa fa-check"></i><span>
                                     @if($plan->max > 44999)
                                         Unlimited Maximum
@@ -36,6 +36,7 @@
                                         ${{ number_format($plan->max) }} Maximum
                                     @endif
                                 </span></li>
+                                <li><i class="fa fa-check"></i><span>Duration : 8Weeks</span></li>
                            </ul>
                        </div>
                        <div class="btn-part">

@@ -88,6 +88,14 @@
 
                 <!-- Menu Start -->
                 <div class="menu-area menu-sticky">
+                    <span id="google_translate_element"></span>
+                           <script type="text/javascript">
+                               function googleTranslateElementInit() {
+                                   new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                               }
+                           </script>
+
+                           <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                     <div class="container custom">
                         <div class="row-table">
                             <div class="col-cell header-logo">                                  
